@@ -1,10 +1,8 @@
 const repeatString = function(input, times) {
-  if(times < 0){
-    return "ERROR";
-  }
+  if(times < 0) return "ERROR";
   let output = "";
   for(let i = 0; i < times; i++){
-    output = output.concat("",input);
+    output += input;
   }
   return output;
 };
