@@ -9,7 +9,7 @@ const sumAll = function(from, to) {
   }
   let output = 0;
   for(i = from; i <= to; i++){
-    output = output + i;
+    output += i;
   }
   return output;
 };
